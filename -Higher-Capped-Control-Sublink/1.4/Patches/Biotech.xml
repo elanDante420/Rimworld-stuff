@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+<xpath>Defs/HediffDef[defName="ControlSublinkImplant"]/stages</xpath>
+<value>
+<stages>
+      <li>
+        <minSeverity>1</minSeverity>
+        <statOffsets>
+          <MechControlGroups>1</MechControlGroups>
+          <WorkSpeedGlobalOffsetMech>0.06</WorkSpeedGlobalOffsetMech>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>2</minSeverity>
+        <statOffsets>
+          <MechControlGroups>2</MechControlGroups>
+          <WorkSpeedGlobalOffsetMech>0.12</WorkSpeedGlobalOffsetMech>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>3</minSeverity>
+        <statOffsets>
+          <MechControlGroups>3</MechControlGroups>
+          <WorkSpeedGlobalOffsetMech>0.18</WorkSpeedGlobalOffsetMech>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>4</minSeverity>
+        <statOffsets>
+          <MechControlGroups>4</MechControlGroups>
+          <WorkSpeedGlobalOffsetMech>0.24</WorkSpeedGlobalOffsetMech>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>5</minSeverity>
+        <statOffsets>
+          <MechControlGroups>5</MechControlGroups>
+          <WorkSpeedGlobalOffsetMech>0.30</WorkSpeedGlobalOffsetMech>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>6</minSeverity>
+        <statOffsets>
+          <MechControlGroups>6</MechControlGroups>
+          <WorkSpeedGlobalOffsetMech>0.36</WorkSpeedGlobalOffsetMech>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>7</minSeverity>
+        <statOffsets>
+          <MechControlGroups>6</MechControlGroups>
+          <WorkSpeedGlobalOffsetMech>0.42</WorkSpeedGlobalOffsetMech>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>8</minSeverity>
+        <statOffsets>
+          <MechControlGroups>6</MechControlGroups>
+          <WorkSpeedGlobalOffsetMech>0.48</WorkSpeedGlobalOffsetMech>
+        </statOffsets>
+      </li>      
+      <li>
+        <minSeverity>9</minSeverity>
+        <statOffsets>
+          <MechControlGroups>6</MechControlGroups>
+          <WorkSpeedGlobalOffsetMech>0.54</WorkSpeedGlobalOffsetMech>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>10</minSeverity>
+        <statOffsets>
+          <MechControlGroups>6</MechControlGroups>
+          <WorkSpeedGlobalOffsetMech>0.60</WorkSpeedGlobalOffsetMech>
+        </statOffsets>
+      </li>
+    </stages>
+</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/HediffDef[defName="ControlSublinkImplant"]/maxSeverity</xpath>
+  <value>
+    <maxSeverity>10</maxSeverity>
+  </value>
+</Operation>
+</Patch>

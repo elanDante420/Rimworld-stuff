@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>(Higher)Capped Control Sublink</name>
+	<author>Zia#4090</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<modVersion>1.0</modVersion>
+	<packageId>zia.controlsublink</packageId>
+	<description>Makes the Control sublink have 4 additional tiers, adding up to +60% workspeed on all mechs.</description>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>OskarPotocki.VFE.Mechanoid</li>
+		<li>Mlie.MechanoidPower</li>
+		<li>hlx.reinforcedmechanoids2</li>
+	</loadAfter>
+
+</ModMetaData>
